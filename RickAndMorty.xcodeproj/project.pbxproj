@@ -15,10 +15,17 @@
 		F69B66782D62558E00E14189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B666D2D62558E00E14189 /* AppDelegate.swift */; };
 		F69B66792D62558E00E14189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B66712D62558E00E14189 /* SceneDelegate.swift */; };
 		F69B667F2D62679700E14189 /* BasicMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B667E2D62679700E14189 /* BasicMainButton.swift */; };
+		F6ECDFEF2D6286EB000ECA96 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECDFE92D6286EB000ECA96 /* CharactersViewController.swift */; };
+		F6ECDFF02D6286EB000ECA96 /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECDFEA2D6286EB000ECA96 /* EpisodesViewController.swift */; };
+		F6ECDFF12D6286EB000ECA96 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECDFEC2D6286EB000ECA96 /* LocationsViewController.swift */; };
+		F6ECDFF22D6286EB000ECA96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECDFED2D6286EB000ECA96 /* ViewController.swift */; };
 		F6ECDFFA2D6289C3000ECA96 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F6ECDFF92D6289C3000ECA96 /* SnapKit */; };
 		F6ECDFFD2D629377000ECA96 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECDFFC2D629377000ECA96 /* UIImage+Resize.swift */; };
 		F6ECE0002D635D3A000ECA96 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F6ECDFFF2D635D3A000ECA96 /* Alamofire */; };
 		F6ECE0042D63605D000ECA96 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECE0032D63605D000ECA96 /* NetworkService.swift */; };
+		F6ECE00A2D63723F000ECA96 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECE0092D63723F000ECA96 /* CharacterCell.swift */; };
+		F6ECE00C2D6372CC000ECA96 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECE00B2D6372CC000ECA96 /* UIImageView+Extensions.swift */; };
+		F6ECE00F2D637322000ECA96 /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECE00E2D637322000ECA96 /* CharactersViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +38,15 @@
 		F69B66712D62558E00E14189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F69B66732D62558E00E14189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F69B667E2D62679700E14189 /* BasicMainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMainButton.swift; sourceTree = "<group>"; };
+		F6ECDFE92D6286EB000ECA96 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		F6ECDFEA2D6286EB000ECA96 /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
+		F6ECDFEC2D6286EB000ECA96 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		F6ECDFED2D6286EB000ECA96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6ECDFFC2D629377000ECA96 /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
 		F6ECE0032D63605D000ECA96 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F6ECE0092D63723F000ECA96 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		F6ECE00B2D6372CC000ECA96 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		F6ECE00E2D637322000ECA96 /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -72,6 +86,9 @@
 		F62DA9712D6136DC0087A233 = {
 			isa = PBXGroup;
 			children = (
+				F6ECE00D2D6372E8000ECA96 /* ViewModels */,
+				F6ECE0082D6371FD000ECA96 /* Views */,
+				F6ECE0072D63714D000ECA96 /* Cells */,
 				F6ECE0012D635FE7000ECA96 /* Services */,
 				F6ECDFFB2D629319000ECA96 /* Extension */,
 				F69B667C2D62674000E14189 /* Base */,
@@ -131,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				F6ECDFFC2D629377000ECA96 /* UIImage+Resize.swift */,
+				F6ECE00B2D6372CC000ECA96 /* UIImageView+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -141,6 +159,33 @@
 				F6ECE0032D63605D000ECA96 /* NetworkService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		F6ECE0072D63714D000ECA96 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F6ECE0092D63723F000ECA96 /* CharacterCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F6ECE0082D6371FD000ECA96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6ECDFE92D6286EB000ECA96 /* CharactersViewController.swift */,
+				F6ECDFEC2D6286EB000ECA96 /* LocationsViewController.swift */,
+				F6ECDFED2D6286EB000ECA96 /* ViewController.swift */,
+				F6ECDFEA2D6286EB000ECA96 /* EpisodesViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6ECE00D2D6372E8000ECA96 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F6ECE00E2D637322000ECA96 /* CharactersViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +276,13 @@
 				F62DA9992D6139870087A233 /* LocationModel.swift in Sources */,
 				F6ECDFFD2D629377000ECA96 /* UIImage+Resize.swift in Sources */,
 				F62DA99B2D6139E40087A233 /* EpisodeModel.swift in Sources */,
+				F6ECDFEF2D6286EB000ECA96 /* CharactersViewController.swift in Sources */,
+				F6ECDFF02D6286EB000ECA96 /* EpisodesViewController.swift in Sources */,
+				F6ECE00C2D6372CC000ECA96 /* UIImageView+Extensions.swift in Sources */,
+				F6ECE00F2D637322000ECA96 /* CharactersViewModel.swift in Sources */,
+				F6ECE00A2D63723F000ECA96 /* CharacterCell.swift in Sources */,
+				F6ECDFF12D6286EB000ECA96 /* LocationsViewController.swift in Sources */,
+				F6ECDFF22D6286EB000ECA96 /* ViewController.swift in Sources */,
 				F6ECE0042D63605D000ECA96 /* NetworkService.swift in Sources */,
 				F69B667F2D62679700E14189 /* BasicMainButton.swift in Sources */,
 			);
