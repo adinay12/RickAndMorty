@@ -8,14 +8,14 @@
 import Foundation
 
 struct CharacterResponse: Codable {
-    let rusults: [CharacterModel]
+    let results: [CharacterModel]
 }
 
 struct CharacterModel: Codable {
     let name : String?
     let gender: String
     let species: String
-    let location: String
+    let location: CharacterLocation
     let image: String?
 }
 
