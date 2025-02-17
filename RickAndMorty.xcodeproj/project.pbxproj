@@ -17,6 +17,7 @@
 		F69B667F2D62679700E14189 /* BasicMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B667E2D62679700E14189 /* BasicMainButton.swift */; };
 		F6ECDFFA2D6289C3000ECA96 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F6ECDFF92D6289C3000ECA96 /* SnapKit */; };
 		F6ECDFFD2D629377000ECA96 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECDFFC2D629377000ECA96 /* UIImage+Resize.swift */; };
+		F6ECE0002D635D3A000ECA96 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F6ECDFFF2D635D3A000ECA96 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6ECDFFA2D6289C3000ECA96 /* SnapKit in Frameworks */,
+				F6ECE0002D635D3A000ECA96 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +153,7 @@
 			name = RickAndMorty;
 			packageProductDependencies = (
 				F6ECDFF92D6289C3000ECA96 /* SnapKit */,
+				F6ECDFFF2D635D3A000ECA96 /* Alamofire */,
 			);
 			productName = RickAndMorty;
 			productReference = F62DA97A2D6136DC0087A233 /* RickAndMorty.app */;
@@ -182,6 +185,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				F6ECDFF82D6289C3000ECA96 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F6ECDFFE2D635D3A000ECA96 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F62DA97B2D6136DC0087A233 /* Products */;
@@ -439,6 +443,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		F6ECDFFE2D635D3A000ECA96 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -446,6 +458,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F6ECDFF82D6289C3000ECA96 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		F6ECDFFF2D635D3A000ECA96 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6ECDFFE2D635D3A000ECA96 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
