@@ -26,6 +26,10 @@
 		F6ECE00A2D63723F000ECA96 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECE0092D63723F000ECA96 /* CharacterCell.swift */; };
 		F6ECE00C2D6372CC000ECA96 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECE00B2D6372CC000ECA96 /* UIImageView+Extensions.swift */; };
 		F6ECE00F2D637322000ECA96 /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECE00E2D637322000ECA96 /* CharactersViewModel.swift */; };
+		F6ECE0132D6384F6000ECA96 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECE0122D6384F6000ECA96 /* LocationCell.swift */; };
+		F6ECE0152D63861F000ECA96 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECE0142D63861F000ECA96 /* LocationsViewModel.swift */; };
+		F6ECE0172D6389E1000ECA96 /* EpisodesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECE0162D6389E1000ECA96 /* EpisodesViewModel.swift */; };
+		F6ECE0192D6389FD000ECA96 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ECE0182D6389FD000ECA96 /* EpisodeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +51,10 @@
 		F6ECE0092D63723F000ECA96 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		F6ECE00B2D6372CC000ECA96 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		F6ECE00E2D637322000ECA96 /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		F6ECE0122D6384F6000ECA96 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		F6ECE0142D63861F000ECA96 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		F6ECE0162D6389E1000ECA96 /* EpisodesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewModel.swift; sourceTree = "<group>"; };
+		F6ECE0182D6389FD000ECA96 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -165,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				F6ECE0092D63723F000ECA96 /* CharacterCell.swift */,
+				F6ECE0122D6384F6000ECA96 /* LocationCell.swift */,
+				F6ECE0182D6389FD000ECA96 /* EpisodeCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -184,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				F6ECE00E2D637322000ECA96 /* CharactersViewModel.swift */,
+				F6ECE0142D63861F000ECA96 /* LocationsViewModel.swift */,
+				F6ECE0162D6389E1000ECA96 /* EpisodesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -272,11 +284,15 @@
 			files = (
 				F62DA9972D6138D20087A233 /* CharacterModel.swift in Sources */,
 				F69B66782D62558E00E14189 /* AppDelegate.swift in Sources */,
+				F6ECE0172D6389E1000ECA96 /* EpisodesViewModel.swift in Sources */,
 				F69B66792D62558E00E14189 /* SceneDelegate.swift in Sources */,
 				F62DA9992D6139870087A233 /* LocationModel.swift in Sources */,
 				F6ECDFFD2D629377000ECA96 /* UIImage+Resize.swift in Sources */,
 				F62DA99B2D6139E40087A233 /* EpisodeModel.swift in Sources */,
+				F6ECE0132D6384F6000ECA96 /* LocationCell.swift in Sources */,
+				F6ECE0152D63861F000ECA96 /* LocationsViewModel.swift in Sources */,
 				F6ECDFEF2D6286EB000ECA96 /* CharactersViewController.swift in Sources */,
+				F6ECE0192D6389FD000ECA96 /* EpisodeCell.swift in Sources */,
 				F6ECDFF02D6286EB000ECA96 /* EpisodesViewController.swift in Sources */,
 				F6ECE00C2D6372CC000ECA96 /* UIImageView+Extensions.swift in Sources */,
 				F6ECE00F2D637322000ECA96 /* CharactersViewModel.swift in Sources */,

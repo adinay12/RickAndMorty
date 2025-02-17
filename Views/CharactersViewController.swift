@@ -42,14 +42,14 @@ class CharactersViewController: UIViewController {
     }
     
     private func setupConstrains() {
-        searchBar.snp.makeConstraints { make in
-            make.top.equalTo(view.safeAreaLayoutGuide)
-            make.left.right.equalToSuperview()
+        searchBar.snp.makeConstraints {
+            $0.top.equalTo(view.safeAreaLayoutGuide)
+            $0.left.right.equalToSuperview()
         }
         
-        tableView.snp.makeConstraints { make in
-            make.top.equalTo(searchBar.snp.bottom)
-            make.left.right.bottom.equalToSuperview()
+        tableView.snp.makeConstraints { 
+            $0.top.equalTo(searchBar.snp.bottom)
+            $0.left.right.bottom.equalToSuperview()
         }
     }
     

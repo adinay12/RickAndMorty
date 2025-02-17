@@ -60,17 +60,16 @@ class CharacterCell: UITableViewCell {
         infoStack.spacing = 4
         contentView.addSubview(infoStack)
         
-        
-        avatarImageView.snp.makeConstraints { make in
-            make.left.top.equalToSuperview().offset(10)
-            make.width.height.equalTo(60)
-            make.bottom.lessThanOrEqualToSuperview().offset(-10)
+        avatarImageView.snp.makeConstraints {
+            $0.left.top.equalToSuperview().offset(10)
+            $0.width.height.equalTo(60)
+            $0.bottom.lessThanOrEqualToSuperview().offset(-10)
         }
         
-        infoStack.snp.makeConstraints { make in
-            make.left.equalTo(avatarImageView.snp.right).offset(10)
-            make.centerY.equalTo(avatarImageView.snp.centerY)
-            make.right.equalToSuperview().offset(-10)
+        infoStack.snp.makeConstraints {
+            $0.left.equalTo(avatarImageView.snp.right).offset(10)
+            $0.centerY.equalTo(avatarImageView.snp.centerY)
+            $0.right.equalToSuperview().offset(-10)
         }
     }
     
