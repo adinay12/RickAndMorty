@@ -1,10 +1,10 @@
 {
-  "originHash" : "a4f20c1d9de9723521adf26a4d35c4d8f374e77893d21587c10e7b5ba04e4bad",
+  "originHash" : "dd27728c8848101841bd8d45243ef43144e233aa3767c82656934b73447347b8",
   "pins" : [
     {
-      "identity" : "snapkit?tab=readme-ov-file",
+      "identity" : "snapkit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SnapKit/SnapKit?tab=readme-ov-file",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
       "state" : {
         "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
         "version" : "5.7.1"
